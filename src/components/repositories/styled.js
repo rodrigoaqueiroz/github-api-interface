@@ -5,13 +5,16 @@ export const WrapperTabs = styled(Tabs)`
   font-size: 16px;
   width: 100%;
   margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const WrapperTabList = styled(TabList)`
   list-style-type: none;
   padding: 4px;
   display: flex;
-  margin: 0;
 `;
 WrapperTabList.tabsRole = "TabList";
 
@@ -39,8 +42,6 @@ export const WrapperTabPanel = styled(TabPanel)`
   padding: 16px;
   border: 1px solid "#ccc";
   display: none;
-  margin-top: -5px;
-
   &.is-selected {
     display: block;
   }

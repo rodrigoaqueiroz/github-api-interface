@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   align-items: flex-start;
+  justify-content: center;
+  padding: 24px;
 `;
 
 export const WrapperInfoUser = styled.div`

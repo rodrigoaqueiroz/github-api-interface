@@ -15,6 +15,11 @@ export const Wrapper = styled.div`
     font-weight: 500;
   }
 
+  & ::placeholder {
+    text-align: center;
+    font-weight: bold;
+  }
+
   button {
     background-color: #225ed8;
     padding: 8px 16px;
